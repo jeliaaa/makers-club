@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
-*{
+@theme {
+    --color-yellowish: #ad8a2a;
+    --color-dark-color: #460809
+}
+
+
+* {
     font-family: "Poppins", sans-serif;
 }
