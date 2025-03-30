@@ -5,7 +5,7 @@ import Main from "./pages/Main"
 
 function App() {
   return (
-    <div className="mb-1000">
+    <div>
       <Header />
       <div className="main_wrapper">
         <Routes>
