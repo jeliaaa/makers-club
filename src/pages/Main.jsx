@@ -5,6 +5,7 @@ import Courses from '../components/Courses'
 import PricingSection from '../components/Pricing'
 import Founders from '../components/Founders'
 import Partners from '../components/Partners'
+import Quotes from '../components/Quotes'
 
 const Main = () => {
     return (
@@ -13,6 +14,7 @@ const Main = () => {
             <AboutUs />
             <Courses />
             <PricingSection />
+            <Quotes />
             <Founders />
             <Partners />
         </div>

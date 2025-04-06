@@ -4,12 +4,12 @@ import XSvg from "../assets/icons/x.svg";
 
 
 const navItems = [
-    { name: "About", link: "#" },
-    { name: "Courses", link: "#" },
-    { name: "Tiers", link: "#" },
-    { name: "Team", link: "#" },
-    { name: "Events", link: "#" },
-    { name: "Contact Us", link: "#" }
+    { name: "About", link: "about" },
+    { name: "Courses", link: "courses" },
+    { name: "Tiers", link: "tiers" },
+    { name: "Team", link: "team" },
+    // { name: "Events", link: "#" },
+    // { name: "Contact Us", link: "#" }
 ];
 
 const Header = () => {
@@ -24,7 +24,7 @@ const Header = () => {
 
             <nav className="hidden font-bold text-xl md:flex gap-6">
                 {navItems.map((item, index) => (
-                    <a key={index} href={item.link} className="hover:-translate-y-1 transition-all delay-75">
+                    <a key={index} href={`#${item.link}`} className="hover:-translate-y-1 transition-all delay-75">
                         {item.name}
                     </a>
                 ))}
@@ -40,7 +40,7 @@ const Header = () => {
                 </div>
                 <nav className="flex flex-col gap-4">
                     {navItems.map((item, index) => (
-                        <a key={index} href={item.link} className="hover:underline">
+                        <a key={index} href={`#${item.link}`} className="hover:underline">
                             {item.name}
                         </a>
                     ))}
