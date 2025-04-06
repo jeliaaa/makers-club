@@ -17,7 +17,7 @@ const Courses = () => {
 
     return (
         <div id='courses' className='bg-dark-color w-full p-10'>
-            <h1 className='text-6xl text-yellowish font-bold uppercase'>Our courses</h1>
+            <h1 className='text-6xl mb-4 text-yellowish font-bold uppercase'>Our courses</h1>
             <div className='flex flex-wrap w-full py-10 p-5 bg-red-950 gap-x-10 gap-y-10 items-center justify-center'>
                 {services.map((course) => (
                     <Card cardObject={course} />

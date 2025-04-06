@@ -35,7 +35,7 @@ export default function Quotes() {
     return (
         <section className="py-12 bg-dark-color w-full">
             <div className="max-w-7xl mx-auto px-4">
-                <h2 className="text-3xl text-center text-white mb-8">
+                <h2 className="text-6xl text-center text-white mb-8">
                     What Do <span className="text-yellowish">They</span> Say
                 </h2>
                 <Swiper

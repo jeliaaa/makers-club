@@ -30,7 +30,7 @@ const Founders = () => {
                         <div key={index} className="p-6 rounded-xl gap-y-3 max-w-xs flex flex-col items-center hover:scale-105 transition-transform">
                             <img src="https://mimicry.today/wp-content/uploads/2017/03/testy3-1.png" alt={founder.name} className="h- object-cover mb-4 rounded-full" />
                             <hr className='w-full h-1 bg-white' />
-                            <h2 className="text-xl font-bold text-yellowish">{founder.name}</h2>
+                            <h2 className="text-xl font-bold text-yellowish bg-dark-color p-3 rounded-md">{founder.name}</h2>
                             <div className='flex gap-x-5'>
                                 <a href="links"><img className='w-8' src={linkedin} alt="" /></a>
                                 <a href="links"><img className='w-8' src={instagram} alt="" /></a>
