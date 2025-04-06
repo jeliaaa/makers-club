@@ -16,7 +16,7 @@ const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <header className="absolute top-0 left-0 w-full h-[10dvh] bg-black/75 text-white py-8 px-4 flex items-center justify-between z-50 border-b-2 border-white">
+        <header className="absolute top-0 left-0 w-full h-[10dvh] bg-dark-color text-white py-8 px-4 flex items-center justify-between z-50 border-b-2 border-white">
             <h1 className="text-xl font-bold">Logo</h1>
             <button onClick={() => setIsOpen(!isOpen)} className="md:hidden cursor-pointer">
                 <img className='w-8' src={menuSvg} alt=".." />
